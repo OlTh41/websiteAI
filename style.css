@@ -1,0 +1,143 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a, .login-container li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .login-container li a:hover {
+    color: #252424;
+}
+
+.login-container {
+    margin-left: auto;
+}
+
+.login-container li {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-right: 20px;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 100%;
+}
+
+
+#Logintext {
+    text-align:center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#voorblad {
+    text-align: center;
+}
+
+#voorbladfoto{
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footerMosaLogo {
+    display: block;
+    width: 5%;
+    height: 5%;
+}
