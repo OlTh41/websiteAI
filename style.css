@@ -136,3 +136,12 @@ button {
     margin: 0 auto;
 }
 
+#lijn{
+    width: 10000%; /* Full width */
+    border: 0; /* Optional: remove border */
+    height: 2px; /* Set height of the line */
+    position: left;
+    background-color: black; /* Set line color */
+    color: black;
+    background-color: black;
+}
