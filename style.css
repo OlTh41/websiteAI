@@ -146,9 +146,8 @@ button {
 }
 
 #partners {
-  display: block;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    padding: inherit;
+    margin:auto;
+    width: 200px;
+    display: block;
 }
