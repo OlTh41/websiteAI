@@ -12,7 +12,7 @@ main {
 }
 
 header {
-    background-color: #333;
+    background-color: #3c5166;
     color: #fff;
     padding: 1rem;
 }
@@ -35,12 +35,12 @@ nav ul li {
 }
 
 nav ul li a, .login-container li a {
-    color: black;
+    color: #1a242c;
     text-decoration: none;
 }
 
 nav ul li a:hover, .login-container li a:hover {
-    color: #252424;
+    color: #697b8a;
 }
 
 .login-container {
@@ -52,7 +52,7 @@ nav ul li a:hover, .login-container li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #3c5166;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -145,3 +145,10 @@ button {
     color: black;
 }
 
+#partners {
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
