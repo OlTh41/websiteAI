@@ -23,20 +23,18 @@
         </nav>
     </header>
     <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">Voornaam</label>
-          <input type="text" id="fname" name="firstname" placeholder="je voornaam..">
-      
-          <label for="lname">Achternaam</label>
-          <input type="text" id="lname" name="lastname" placeholder="je achternaam..">
-
-          <label for="subject">onderwerp</label>
-          <textarea id="subject" name="subject" placeholder="type je vraag" style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
+        <form action="action_page.php" method="POST">
+            <label for="fname">Voornaam</label>
+            <input type="text" id="fname" name="firstname" placeholder="Je voornaam.." required>
+            
+            <label for="lname">Achternaam</label>
+            <input type="text" id="lname" name="lastname" placeholder="Je achternaam.." required>
+          
+            <label for="subject">Onderwerp</label>
+            <textarea id="subject" name="subject" placeholder="Type je vraag.." style="height:200px" required></textarea>
+            
+            <input type="submit" value="Submit">
+          </form>          
       </div>
           <footer>
         <a href="https://www.mosa-rt.be/" target="_blank">
