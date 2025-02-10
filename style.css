@@ -19,8 +19,9 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the navigation items */
     align-items: center;
+    position: relative; /* Ensure the dropdown is positioned correctly */
 }
 
 nav ul {
@@ -32,6 +33,11 @@ nav ul {
 
 nav ul li {
     margin-right: 20px;
+    position: relative; /* Ensure the dropdown is positioned correctly */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
 }
 
 nav ul li a, .login-container li a {
@@ -44,7 +50,8 @@ nav ul li a:hover, .login-container li a:hover {
 }
 
 .login-container {
-    margin-left: auto;
+    position: absolute;
+    right: 20px; 
 }
 
 .login-container li {
@@ -211,6 +218,32 @@ button {
     text-align: center;
     border-radius: 75px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
 
-  }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Position the dropdown below the button */
+    left: 0;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
