@@ -198,3 +198,19 @@ button {
     font-size: 14px;
 }
 
+#websiteblog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+    height: 150px; 
+    background-color: #007bff; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 75px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; /* Center horizontally */
+
+  }
